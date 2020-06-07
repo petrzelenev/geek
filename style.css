@@ -1,3 +1,301 @@
+.w-100 {
+  width: 100%!important
+}
+
+.color-white {
+  color: #fff!important
+}
+
+.container {
+  font-family: sans-serif;
+  width: 100%;
+  border: 1px solid black
+}
+
+.left {
+  float: left
+}
+
+.right {
+  float: right
+}
+
+.main-header {
+  background-color: #445060;
+  padding: 50px;
+  box-sizing: border-box
+}
+
+.main-header:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both
+}
+
+.main-header-wrapper ul {
+  list-style: none;
+  margin: 0;
+  position: relative
+}
+
+.main-header-wrapper ul li {
+  position: relative;
+  padding: 0 0 0 20px;
+}
+
+.main-header-wrapper ul li:before {
+  content: "✓";
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 1px
+}
+
+
+
+.section-top {
+    background-color: white;
+    padding: 50px;
+    color: #445060;
+    box-sizing: border-box;
+}
+
+.section-top:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both
+}
+.section-top ul {
+  list-style: none;
+  margin: 0;
+  position: relative;
+    width: 40% ;
+}
+
+
+
+
+
+
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  padding: 10px 20px;
+    margin: 0 auto;
+    
+}
+.review-item {
+  display: flex;
+  width: 48%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.review-item-photo {
+  background: #445060;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%
+}
+
+.review-item-text {
+  width: 70%;
+  padding: 10px;
+  background: #ddd;
+  border-radius: 10px
+}
+
+.review-item-text:before {
+  content: "";
+  border: 15px solid transparent;
+  border-right: 15px solid #ddd;
+  position: relative;
+  top: 15px;
+  left: -60px;
+  display: inline-block;
+  width: 20px
+}
+
+
+
+#centerh1 { 
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #445060;
+}
+
+
+.flex{ 
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+.box1 {
+  width: 200px;
+  height: 250px;
+  border: 1px solid #445060;
+  border-radius: 5px;
+  background-color: #445060;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+
+
+
+.box2 {
+  width: 200px;
+  height: 350px;
+  border: 1px solid #445060;
+  border-radius: 5px;
+  background-color: #445060;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+
+
+
+
+.box3 {
+  width: 200px;
+  height: 410px;
+  border: 1px solid #445060;
+  border-radius: 5px;
+  background-color: #445060;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+
+.center_box_white { 
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: white;
+}
+.white_line{
+    background-color: white;
+    height: 40px;
+}
+
+
+.center_box_black { 
+    text-align: center;
+    font-size: 36px;
+    font-family: sans-serif;
+    color:#445060;
+    padding: 9px;
+}
+.box ol li{
+  position: relative;
+  padding:4px;
+
+}
+.cwd{
+  text-align:center;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.cwda{
+  display: inline-block;
+  cursor: pointer; 
+  font-size:16px;  
+  text-decoration: none; 
+  padding:10px; 
+  color:#445060; 
+  background-color:#ffffff; 
+  border-radius:5px; 
+  border: 0px solid #ffffff;
+  width:75%
+}
+.cwda:hover{
+  background-color:#d641b6;
+  color:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#centerh2 { 
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: white;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #445060;
+    justify-content: center;
+    
+    
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
 .h2 {
 text-align: center;
 }
@@ -112,14 +410,14 @@ box-shadow: 0 0 10px 5px #356b0b inset;
 
 
 
-.contact_form input:focus, .contact_form textarea:focus { /* add this to the already existing style */
+.contact_form input:focus, .contact_form textarea:focus { 
 padding-right:70px;
 }
 
 
 
 
-.contact_form input, .contact_form textarea { /* add this to the already existing style */
+.contact_form input, .contact_form textarea { 
 -moz-transition: padding .25s;
 -webkit-transition: padding .25s;
 -o-transition: padding .25s;
@@ -142,7 +440,7 @@ padding: 1em;
 
 
 
-.contact_form input:focus:invalid, .contact_form textarea:focus:invalid { /* when a field is considered invalid by the browser */
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid { 
 background: #fff url(images/invalid.png) no-repeat 98% center;
 box-shadow: 0 0 5px #d45252;
 border-color: #b03535
@@ -151,7 +449,7 @@ border-color: #b03535
 
 
 
-.contact_form input:required:valid, .contact_form textarea:required:valid { /* when a field is considered valid by the browser */
+.contact_form input:required:valid, .contact_form textarea:required:valid { 
 background: #fff url(images/valid.png) no-repeat 98% center;
 box-shadow: 0 0 5px #5cd053;
 border-color: #28921f;
@@ -174,7 +472,7 @@ display: none;
 
 
 .form_hint::before {
-content: "\25C0"; /* треугольник, указующий влево, в escaped unicode */
+content: "\25C0"; 
 color:#d45252;
 position: absolute;
 top:1px;
@@ -184,5 +482,5 @@ left:-6px;
 
 .contact_form input:focus + .form_hint {display: inline;}
  
-.contact_form input:required:valid + .form_hint {background: #28921f;} /* change form hint color when valid */
-.contact_form input:required:valid + .form_hint::before {color:#28921f;} /* change form hint arrow color when valid */
+.contact_form input:required:valid + .form_hint {background: #28921f;} 
+.contact_form input:required:valid + .form_hint::before {color:#28921f;} 
